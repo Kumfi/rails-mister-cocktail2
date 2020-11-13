@@ -15,6 +15,7 @@
           </div>
           <%= link_to "", cocktail_path(cocktail), class: 'card-link' %>
         </div>
+        <%= link_to "Delete Cocktail", cocktail_path(cocktail), method: :delete, data: {confirm: 'This dude is gone'}  %>
       </div>
     <% end %>
   </div>
